@@ -20,7 +20,7 @@ import 'package:food_bd/Page/Netrokona.dart';
 import 'package:food_bd/Page/Nilphamari.dart';
 import 'package:food_bd/Page/Noakhali.dart';
 import 'package:food_bd/Page/Pabna.dart';
-import 'package:food_bd/Page/Rajshahi.dart';
+import 'package:food_bd/Page/Bhola.dart';
 import 'package:food_bd/Page/Rangpur.dart';
 import 'package:food_bd/Page/Shariatpur.dart';
 import 'package:food_bd/Page/Sylhet.dart';
@@ -575,10 +575,10 @@ class _MyAppState extends State<MyApp> {
                                       SizedBox(
                                           height:80,
                                           width:110,
-                                          child: Image.asset('assets_city/Rajshahi.jpg',fit: BoxFit.fill,)
+                                          child: Image.asset('assets_city/Bhola.png',fit: BoxFit.fill,)
                                       ),
                                       SizedBox(height: 10,),
-                                      Text('Rajshahi',style: TextStyle(fontWeight: FontWeight.bold),),
+                                      Text('Bhola',style: TextStyle(fontWeight: FontWeight.bold),),
                                       // Text('(Rajshahi)',style: TextStyle(fontSize: 12),)
                                     ],
                                   ),
@@ -586,7 +586,7 @@ class _MyAppState extends State<MyApp> {
                               ),
                             ),
                             onTap: (){
-                              Navigator.push(context, CupertinoPageRoute(builder: (cnx){return Rajshahi_Page();}));
+                              Navigator.push(context, CupertinoPageRoute(builder: (cnx){return Bhola_Page();}));
                             },
                           ),
 

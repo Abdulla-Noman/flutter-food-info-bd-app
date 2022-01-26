@@ -104,7 +104,7 @@ class _Sweet_PageState extends State<Sweet_Page> {
               title: Text('Domar Sandesh'),
               trailing: SizedBox(
                   width: 80,
-                  child: Image.asset('assets/Domar_Sandesh.png',fit: BoxFit.fill,)
+                  child: Image.asset('assets/Domar_Sandesh2.png',fit: BoxFit.fill,)
               ),
               onTap: () {
                 Navigator.push(context, CupertinoPageRoute(builder: (cnx){return Nilphamari_Page();}));

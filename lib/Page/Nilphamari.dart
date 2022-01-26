@@ -37,7 +37,7 @@ class _Nilphamari_PageState extends State<Nilphamari_Page> {
                       borderRadius: BorderRadius.circular(20),
                       image: DecorationImage(
                         fit: BoxFit.fill,
-                        image: AssetImage('assets/Domar_Sandesh.png'),
+                        image: AssetImage('assets/Domar_Sandesh2.png'),
                       )
                   ),
                 ),

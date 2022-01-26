@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class Jessore_Page extends StatefulWidget {
-  const Jessore_Page({Key? key}) : super(key: key);
+class Bhola_Page extends StatefulWidget {
+  const Bhola_Page({Key? key}) : super(key: key);
 
   @override
-  _Jessore_PageState createState() => _Jessore_PageState();
+  _Bhola_PageState createState() => _Bhola_PageState();
 }
 
-class _Jessore_PageState extends State<Jessore_Page> {
+class _Bhola_PageState extends State<Bhola_Page> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
         iconTheme: IconThemeData(color: Colors.blue),
-        title: Text('Jessore',style: TextStyle(
+        title: Text('Bhola',style: TextStyle(
           color: Colors.black,
         ),),
         centerTitle: true,
@@ -36,8 +36,8 @@ class _Jessore_PageState extends State<Jessore_Page> {
                       ),
                       borderRadius: BorderRadius.circular(20),
                       image: DecorationImage(
-                        fit: BoxFit.cover,
-                        image: AssetImage('assets/Jamtala_sweet2.png'),
+                        fit: BoxFit.fill,
+                        image: AssetImage('assets_city/Bhola.png'),
                       )
                   ),
                 ),
@@ -48,7 +48,7 @@ class _Jessore_PageState extends State<Jessore_Page> {
                     child: RichText(
                       softWrap: true,
                       text: TextSpan(
-                          text: 'সাদেক গোল্লা',
+                          text: 'দুধের দই',
                           style: TextStyle(
                             fontSize: 20.0,
                             fontWeight: FontWeight.bold,
@@ -80,19 +80,11 @@ class _Jessore_PageState extends State<Jessore_Page> {
                             //     )
                             // ),
                             TextSpan(
-                              text: 'সাদেক গোল্লা  বাংলাদেশের যশোর জেলার জামতলা বাজারে উৎপাদিত একটি বিখ্যাত মিষ্টি। এটি মিষ্টি রসগোল্লার একটি রূপ। এটি সামান্য লালচে বা বাদামী রঙের হয়। জামতলা বাজারের সাদেক আলী নামের এক ব্যক্তি তৈরি করেছেন বলে এটি সাদেক গোল্লা নামেও পরিচিত। শার্শা উপজেলার নাভারণ-সাতক্ষীরা সড়কের জামতলা বাজারের সাদেক মিষ্টির দোকানে পাওয়া যাবে এই সাদেক গোল্লা। সাদেক গোল্লার বিশেষত্ব হলো এতে চিনির পরিমাণ কম। তাই যাদের ডায়াবেটিস আছে তারা এই মিষ্টি খেতে পারেন, সমস্যা নেই।',
+                              text: 'ভোজনরসিক বাঙালির খাবারে আছে নানা বৈচিত্র্য। এ দেশে প্রতিটি জেলার রয়েছে জনপ্রিয় কিছু খাবারের সুখ্যাতি। মুখরোচক সেসব খাবার ওই জেলার ঐতিহ্য হিসেবে বিবেচিত হয়। এমন খাবারের প্রতি সবারই লোভ থাকে। অনেকেই মুখরোচক সেসব খাবার খেতে যায় নানা স্থানে। দ্বীপজেলা ভোলার তেমনই একটি বিখ্যাত খাবার মহিষের দুধের টক দই। যা এই জেলাকে উপস্থাপন করেছে দেশের গণ্ডি ছাড়িয়ে বিদেশের মাটিতেও।ভোলার টক দইয়ের নাম জানা নেই এমন লোক খুঁজে পাওয়া দুষ্কর। শিশু থেকে বৃদ্ধ সবার কাছেই প্রিয় এই দই। ভোলায় পারিবারিক, সামাজিক বা সাংস্কৃতিক যেকোনো অনুষ্ঠানে দই থাকবে না এমনটা হতেই পারে না। ছোট, বড় যেকোনো অনুষ্ঠানে এ খাবার তুঙ্গে। স্থানীয়রা খাবারের শেষে ভাতের সঙ্গে দই খায়। তবে নানাভাবে খাওয়া যায় এই দই। নাস্তা হিসেবেও দই খাওয়া যায়। দই চিড়ার সঙ্গে হালকা মুড়ি ও চিনি মিশিয়ে মজা করে খাওয়া যায়। গরমের মৌসুমে দইয়ের সঙ্গে হালকা পানি ও চিনি মিশিয়ে ঘোল তৈরি করা হয়। এ ঘোল গরমের দিনে মানবদেহকে ঠাণ্ডা রাখে।শুধু স্বাদেই দই সীমাবদ্ধ নয়। এই দইয়ে রয়েছে প্রচুর ঔষধি গুণ। হজমে সহায়তা করে দই। স্বাস্থ্যবিদরা বলছেন, দইয়ে ক্যালসিয়াম, প্রোটিন, ভিটামিনসহ অন্যান্য উপদান রয়েছে, যা আমাদের দেহের জন্য খুবই উপকারি।গরমের দিনে সাত থেকে আট ঘণ্টা এবং শীতের দিনে ১০ থেকে ১২ ঘণ্টা সময় লাগে দই তৈরিতে।ভোলা বাংলাদেশের বৃহত্তম দ্বীপ। এখানে ছোট-বড় বহু চর রয়েছে। এসব কারণে এখানে মহিষ পালন করা অনেকটা সুবিধাজনক। প্রায় ২০০ বছরের বেশি সময় ধরে এ মহিষের দুধের দইয়ের সুনাম রয়েছে এ জেলার।ভোলা পৌর শহরের ঘোষপট্টি মহিষের দুধের দইয়ের প্রধান প্রাণকেন্দ্র। এ ছাড়াও শহরের খলিফা পট্টি মসজিদ, দিদারের গলিসহ বিভিন্ন পয়েন্টে এবং জেলার বিভিন্ন উপজেলায় এ দই পাওয়া যায়।',
                               style: TextStyle(
                                 color: Colors.grey,
                               ),
                             )
-                            // TextSpan(
-                            //   text: 'Jamtala Sweet is a famous sweet produced in Jamtala Bazaar, Jessore District, Bangladesh. [3] [4] [5] This is a variant of sweet rasgolla. It is slightly reddish or brown in color. It is also known as Sadeq Golla because it is made by a man named Sadeq Ali from Jamtala Bazar. '
-                            //       'This Sadeq Golla can be found at Sadek Sweets Store at Jamtala Bazar on Navaran-Satkhira Road in Sharsha Upazila. The specialty of Sadeq Golla is that it has low amount of sugar. '
-                            //       'So those who have diabetes can eat this sweet, no problem.',
-                            //   style: TextStyle(
-                            //     color: Colors.grey,
-                            //   ),
-                            // )
                           ]
                       )
                   ),
